@@ -13,10 +13,8 @@ const uint64_t CENT = 1000000;
 
 uint32_t OP_CHECKSIG = 172; // This is expressed as 0xAC
 bool generateBlock = false;
-//uint32_t startNonce = 2083236893; // change
-//uint32_t unixtime = 1231006505; // change  
-uint32_t startNonce = 414098458; // change testnet 
-uint32_t unixtime = 1296688602; // change testnet 
+uint32_t startNonce = 412358285;
+uint32_t unixtime = 1395650517;
 
 typedef struct {
 	/* Hash of Tx */
