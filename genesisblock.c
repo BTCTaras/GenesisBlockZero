@@ -1,4 +1,3 @@
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -14,8 +13,10 @@ const uint64_t CENT = 1000000;
 
 uint32_t OP_CHECKSIG = 172; // This is expressed as 0xAC
 bool generateBlock = false;
-uint32_t startNonce = 0;
-uint32_t unixtime = 0;
+//uint32_t startNonce = 2083236893; // change
+//uint32_t unixtime = 1231006505; // change  
+uint32_t startNonce = 414098458; // change testnet 
+uint32_t unixtime = 1296688602; // change testnet 
 
 typedef struct {
 	/* Hash of Tx */
